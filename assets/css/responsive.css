@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 440px) {
+
+  .hero-info h1,
+  #classes h2,
+  .option-title h2,#contact h1{
+    font-size: 30px;
+  }
+  .image-wrapper .hero-info p{
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 510px;
+    margin: 0 auto;
+  }
+
+  .hero-info h1,
+  #classes h2,
+  .option-title h2 ,#contact h1{
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .hero-info h1,
+  #classes h2,
+  .option-title h2 ,#contact h1{
+    font-size: 45px;
+  }
+
+  .option-card:nth-child(3) {
+   justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .hero-info h1,
+  #classes h2,
+  .option-title h2,#contact h1 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .hero-info h1,
+  #classes h2,
+  .option-title h2,#contact h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .content {
+    width: 100%;
+  }
+
+  .hero-info{
+    width: 95%;
+   
+    
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .content {
+    width: 100%;
+  }
+
+  .hero-info {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 820px) {
+
+  .navbar .nav-links {
+    display: none !important;
+
+
+  }
+
+  .navbar .nav-menu {
+    display: flex !important;
+  }
+
+  .navbar .nav-menu:hover {
+    color: rgb(214, 38, 7);
+  }
+}
